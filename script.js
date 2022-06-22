@@ -30,7 +30,7 @@ function hoverEfekt(){
 
 function changeColor(){
     this.classList.add('tileHovered')
-}
+};
 
 function resetResize(){
   newSize = prompt('Chose a grid size from 1 to 100', '16')
@@ -38,7 +38,7 @@ function resetResize(){
   else{
     document.getElementById('container').textContent = '';   //removes all Divs in a parent Div
     makeRows(newSize, newSize);
-    hoverEfekt() 
+    hoverEfekt();
   };
 };    
 
